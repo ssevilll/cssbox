@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    height: 50px;
+}
+
+#header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    gap: 20%;
+}
+
+#header .navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header .navbar .navigation {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    height: 100%;
+    width: 50%;
+}
+
+#header .navbar .navigation ul {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#header .navbar .navigation li {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    transition: 0.3s;
+    justify-content: center;
+}
+
+#header .navbar .navigation li:hover {
+    color: lightseagreen;
+    transform: scale(1.05);
+}
+
+#header .navbar .navigation a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+#header .navbar .number {
+    font-size: 16px;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header .navbar .number a {
+    text-decoration: none;
+    transition: 0.3s;
+    color: black;
+}
+
+#header .navbar .number a:hover {
+    color: lightseagreen;
+    transform: scale(1.05);
+}
+
+
+
+
+
+#body {}
+
+#body .main {
+    width: 100%;
+    height: 100vh;
+}
+
+#body .main .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 400px;
+    background-image: url('../img/download\ \(11\).jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+#body .main .info .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+#body .main .info .title p {
+    padding: 20px;
+    margin-top: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+#body .main .info .description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#body .main .info .description p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#body .main .cards {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+#body .main .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    height: 300px;
+    border-radius: 25px;
+    transition: 0.3s;
+
+}
+
+#body .main .cards .card:hover {
+    box-shadow: 0px 0px 10px lightseagreen;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+#body .main .cards .card .logo {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#body .main .cards .card .logo i {
+    font-size: 30px;
+    background-color: lightseagreen;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+}
+
+
+#body .main .cards .card .card-title {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#body .main .cards .card .card-title p {
+    font-size: 20px;
+    font-weight: bold;
+    color: lightseagreen;
+}
+
+#body .main .cards .card .card-description {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#body .main .cards .card .card-description p {
+    text-align:justify;
+    line-height: 1.5;
+    padding: 0px 10px 8px 10px;
+}
