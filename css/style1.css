@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#profile{
+
+}
+
+#profile .users{
+    width: 100vh;
+    height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+
+}
+
+#profile .users .user{
+    margin-top: 100px;
+    width: 280px;
+    height: 450px;
+    position: relative;
+    border-radius: 8px;
+}
+
+#profile .users .user .user-info{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(247, 244, 239);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#profile .users .user .user-info .plus{
+    position: absolute;
+    top: 170px;
+    right: -19px;
+}
+
+#profile .users .user .user-info .plus p{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ff00ae;
+    margin: 5px;
+    padding: 6px 11px;
+    border-radius: 50%;
+    color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#profile .users .user .user-info .info-profile{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+#profile .users .user .user-info .info-profile .img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#profile .users .user .user-info .info-profile .img img{
+ border-radius: 50%;
+ width: 170px;
+ padding-top: 10px;
+}
+
+#profile .users .user .user-info .info-about{
+    width: 100%;
+    height: 80px;
+}
+
+#profile .users .user .user-info .info-about .name{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    font-size: 25px;
+}
+
+#profile .users .user .user-info .info-about .username{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    color: gray;
+}
+
+#profile .users .user .user-info .info-about .profession{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+#profile .users .user .user-connection{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+#profile .users .user .user-connection .statistics{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    
+}
+
+
+#profile .users .user .user-connection .statistics .shots{
+    line-height: 1.2;
+}
+
+
+#profile .users .user .user-connection .statistics .followers{
+    line-height: 1.2;
+}
+
+
+#profile .users .user .user-connection .statistics .following{
+    line-height: 1.2;
+}
+
+#profile .users .user .user-connection .statistics h3{
+    text-align: center;
+}
+
+#profile .users .user .user-connection .statistics p{
+    text-align: center;
+    color: gray;
+}
+
+#profile .users .user .user-connection .message{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile .users .user .user-connection .message p{
+    font-size: 20px;
+    background-color: rgb(108, 180, 0);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+#profile .users .user .user-connection .more{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile .users .user .user-connection .more p{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: lightgray;
+}
+
+#profile .users .user .user-connection .more p i{
+    margin-left: 5px;
+    text-size-adjust: 20px;
+    font-size: 15px;
+}

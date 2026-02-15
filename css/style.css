@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#cards-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.cards{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+
+}
+
+.cards .card{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+
+}
+
+.cards .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: translateY(-5px);
+    transition: all 0.5s;
+}
+
+.cards .card .card-header{
+    width: 100%;
+    height: 180px;
+}
+
+.cards .card .card-header .header-img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.cards .card .card-header .header-img img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.cards .card .card-body{
+    width: 100%;
+    height: 250px;
+
+}
+
+.cards .card .card-body .body-category{
+    width: 100%;
+    height: 40px;
+}
+
+.cards .card .card-body .body-category .category-text{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+
+.cards .card .card-body .body-category .category-text p{
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 3px 7px;
+}
+
+
+
+.cards .card .card-body .body-title{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.cards .card .card-body .body-title h2{
+    margin-left: 10px;
+}
+
+.cards .card .card-body .body-description{
+    width: 100%;
+    height: 190px;
+    
+    display: flex;
+    margin-top: 10px;
+}
+
+.cards .card .card-body .body-description p{
+    margin-left: 10px;
+}
+
+.cards .card .card-footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+
+}
+
+.cards .card .card-footer .footer-img{
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.cards .card .card-footer .footer-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.cards .card .card-footer .footer-about .about-name p{
+    font-weight: bold;
+}
+
+.cards .card .card-footer .footer-about .about-description p{
+    font-size: 12px;
+    color: gray;
+}
