@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/tree_evening_twilight_mood_sunset_landscape_sky_atmosphere-601038.jpg!s');
+    background-size: cover;
+    background-position: center;
+}
+
+#navbar {
+    width: 100vw;
+    height: 60px;
+}
+
+#navbar .navigation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+#navbar .navigation .logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#navbar .navigation .logo h1 {
+    font-size: 35px;
+    color: orangered;
+}
+
+#navbar .navigation .nav-link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar .navigation .nav-link ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+#navbar .navigation .nav-link ul li {
+    margin: 0 10px;
+}
+
+#navbar .navigation .nav-link ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: bold;
+}
+
+#navbar .navigation .search-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar .navigation .search-bar .text {
+    border: 1px solid orangered;
+    padding: 10px 55px 10px 5px;
+    border-radius: 5px 0 0 5px;
+
+}
+
+#navbar .navigation .search-bar .text p {
+    color: white;
+}
+
+#navbar .navigation .search-bar .button {
+    background-color: orangered;
+    border: 1px solid orangered;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+}
+
+#navbar .navigation .search-bar .button p {
+    color: white;
+}
+
+#main {
+    width: 100vw;
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main .body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#main .body .left {
+    width: 50%;
+    padding-left: 50px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#main .body .left .title {
+    padding-top: 90px;
+
+}
+
+#main .body .left .title h3 {
+    font-size: 55px;
+    letter-spacing: 1.5px;
+}
+
+#main .body .left .description {
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    width: 80%;
+    line-height: 2;
+}
+
+#main .body .left .description p {
+    font-size: 20px;
+}
+
+#main .body .left .join-button {}
+
+#main .body .left .join-button p {
+    background-color: orangered;
+    color: rgb(0, 0, 0);
+    padding: 10px 40px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+#main .body .right {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main .body .right .login-box {
+    width: 49%;
+    height: 60%;
+    background-color: rgb(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+#main .body .right .login-box input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 0;
+}
+
+#main .body .right .login-box input::placeholder {
+    color: white;
+}
+
+#main .body .right .login-box .login-title {
+    color: orangered;
+    background-color: white;
+    border-radius: 10px;
+    padding: 4px 49px;
+    font-size: 23px;
+}
+
+#main .body .right .login-box .input-section {
+    width: 90%;
+}
+
+#main .body .right .login-box .input-section hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid orangered;
+}
+
+#main .body .right .login-box .login-button {
+    background-color: orangered;
+    color: black;
+    padding: 3px 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#main .body .right .login-box .text {
+    color: white;
+    text-align: center;
+}
+
+#main .body .right .login-box .text a {
+    color: orangered;
+    text-decoration: none;
+}
+
+#main .body .right .login-box .socials {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main .body .right .login-box .socials ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#main .body .right .login-box .socials ul li a {
+    color: white;
+    font-size: 25px;
+}
